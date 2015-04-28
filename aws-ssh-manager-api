@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source config.properties
+
+name='manager-api'
+user="ubuntu"
+key="manager-api.pem"
+
+connectSSH $name $user $key

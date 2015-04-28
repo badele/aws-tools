@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source config.properties
+
+updateAutoScalingGroup $AWS_ASG_MANAGER_API 0
+updateAutoScalingGroup $AWS_ASG_SIRIUS 0
