@@ -2,8 +2,8 @@
 
 source config.properties
 
-name='manager'
+name='zookeeper'
 user="ubuntu"
-key="manager-key.pem"
+key="zookeeper-key.pem"
 
 connectSSH $name $user $key

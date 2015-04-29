@@ -2,8 +2,8 @@
 
 source config.properties
 
-name='manager'
+name='bidder'
 user="ubuntu"
-key="manager-key.pem"
+key="bidder-key.pem"
 
 connectSSH $name $user $key
