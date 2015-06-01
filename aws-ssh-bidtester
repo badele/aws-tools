@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source config.properties
+
+name='bidtester'
+user="ec2-user"
+key="key-test.pem"
+
+connectSSH $name $user $key

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source config.properties
+
+name='tracker'
+user="ubuntu"
+key="tracker-key.pem"
+
+connectSSH $name $user $key
